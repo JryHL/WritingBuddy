@@ -2,7 +2,7 @@
 
 ## Non-functional requirements
 
-### Global
+### Technical
 NF1. The program has an uptime of 99% over a week of simulated usage
 NF2. The program's functions are fully usable on desktop Firefox and Chromium and mobile Firefox and Chrome.
 NF3. The program stores login credentials such that passwords cannot be feasibly retrieved in the case of a database leak
@@ -27,7 +27,7 @@ F11-NF1. The program should return search results in close to constant time, eve
 F12-NF1. The program should return search results in less than 3s for a data size of 100,000 characters.
 
 #### F15
-F15-NF1. The program should be compatible with major third-party grammar checkers, such as Firefox's spellchecker or the Grammarly extension
+F15-NF1. The program should be compatible with major third-party grammar checkers, namely Firefox's spellchecker and the Grammarly extension
 
 ## Functional requirements
 
